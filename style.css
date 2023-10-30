@@ -1,0 +1,23 @@
+#side-box {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 320px;
+  padding: 0px;
+  background-color: red;
+}
+#side-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 3px;
+  height: 56px;
+}
+#side-box-body {
+  margin: 0px;
+  padding: 0px 3px;
+  overflow: hidden;
+  background-color: #1a242d;
+  transition: height 1s;
+}
